@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnblockedHub Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: white;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .content {
+            display: none;
+        }
+        .content.active {
+            display: block;
+        }
+        .proxy-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .proxy-form input, .proxy-form button {
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .proxy-form button {
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+        .game-list {
+            list-style: none;
+            padding: 0;
+        }
+        .game-list li {
+            background: #eaeaea;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .game-list li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .game-list li a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>UnblockedHub Games</h1>
+        <p>Your ultimate destination for unblocked games!</p>
+    </header>
+    <nav>
+        <a href="#" onclick="showContent('home')">Home</a>
+        <a href="#" onclick="showContent('games')">Games</a>
+        <a href="#" onclick="showContent('proxy')">Proxy</a>
+    </nav>
+    <main>
+        <div id="home" class="content active">
+            <h2>Welcome to UnblockedHub Games</h2>
+            <p>Play a variety of unblocked games for free! No downloads, no sign-ups, just pure gaming fun.</p>
+            <p>Explore our extensive collection of games, from classic favorites to the latest releases. Whether you're into action, adventure, puzzles, or sports, we've got something for everyone.</p>
+            <p>Enjoy your gaming experience with us!</p>
+        </div>
+        <div id="games" class="content">
+            <h2>List of Unblocked Games</h2>
+            <ul class="game-list">
+                <li><a href="https://example.com/game1" target="_blank">Game 1: Adventure Quest</a></li>
+                <li><a href="https://example.com/game2" target="_blank">Game 2: Bubble Trouble</a></li>
+                <li><a href="https://example.com/game3" target="_blank">Game 3: Candy Crush</a></li>
+                <li><a href="https://example.com/game4" target="_blank">Game 4: Doodle Jump</a></li>
+                <li><a href="https://example.com/game5" target="_blank">Game 5: Escape the Room</a></li>
+                <li><a href="https://example.com/game6" target="_blank">Game 6: Fruit Ninja</a></li>
+                <li><a href="https://example.com/game7" target="_blank">Game 7: Helicopter Game</a></li>
+                <li><a href="https://example.com/game8" target="_blank">Game 8: Infinite Runner</a></li>
+                <li><a href="https://example.com/game9" target="_blank">Game 9: Jump King</a></li>
+                <li><a href="https://example.com/game10" target="_blank">Game 10: Kizi Race</a></li>
+                <li><a href="https://example.com/game11" target="_blank">Game 11: Ludo King</a></li>
+                <li><a href="https://example.com/game12" target="_blank">Game 12: Mario Bros</a></li>
+                <li><a href="https://example.com/game13" target="_blank">Game 13: Ninja Arashi</a></li>
+                <li><a href="https://example.com/game14" target="_blank">Game 14: Ocean Bubble</a></li>
+                <li><a href="https://example.com/game15" target="_blank">Game 15: Pac-Man</a></li>
+                <li><a href="https://example.com/game16" target="_blank">Game 16: Quizzical</a></li>
+                <li><a href="https://example.com/game17" target="_blank">Game 17: Racing Game</a></li>
+                <li><a href="https://example.com/game18" target="_blank">Game 18: Snake Game</a></li>
+                <li><a href="https://example.com/game19" target="_blank">Game 19: Tetris</a></li>
+                <li><a href="https://example.com/game20" target="_blank">Game 20: Ufo Game</a></li>
+                <li><a href="https://example.com/game21" target="_blank">Game 21: Vex</a></li>
+                <li><a href="https://example.com/game22" target="_blank">Game 22: Wormax.io</a></li>
+                <li><a href="https://example.com/game23" target="_blank">Game 23: Xonix</a></li>
+                <li><a href="https://example.com/game24" target="_blank">Game 24: Yeti Sports</a></li>
+                <li><a href="https://example.com/game25" target="_blank">Game 25: Zombie Survival</a></li>
+                <li><a href="https://example.com/game26" target="_blank">Game 26: Adventure Quest 2</a></li>
+                <li><a href="https://example.com/game27" target="_blank">Game 27: Bubble Trouble 2</a></li>
+                <li><a href="https://example.com/game28" target="_blank">Game 28: Candy Crush Saga</a></li>
+                <li><a href="https://example.com/game29" target="_blank">Game 29: Doodle Jump 2</a></li>
+                <li><a href="https://example.com/game30" target="_blank">Game 30: Escape the Room 2</a></li>
+                <li><a href="https://example.com/game31" target="_blank">Game 31: Fruit Ninja 2</a></li>
+                <li><a href="https://example.com/game32" target="_blank">Game 32: Helicopter Game 2</a></li>
+                <li><a href="https://example.com/game33" target="_blank">Game 33: Infinite Runner 2</a></li>
+                <li><a href="https://example.com/game34" target="_blank">Game 34: Jump King 2</a></li>
+                <li><a href="https://example.com/game35" target="_blank">Game 35: Kizi Race 2</a></li>
+                <li><a href="https://example.com/game36" target="_blank">Game 36: Ludo King 2</a></li>
+                <li><a href="https://example.com/game37" target="_blank">Game 37: Mario Bros 2</a></li>
+                <li><a href="https://example.com/game38" target="_blank">Game 38: Ninja Arashi 2</a></li>
+                <li><a href="https://example.com/game39" target="_blank">Game 39: Ocean Bubble 2</a></li>
+                <li><a href="https://example.com/game40" target="_blank">Game 40: Pac-Man 2</a></li>
+                <li><a href="https://example.com/game41" target="_blank">Game 41: Quizzical 2</a></li>
+                <li><a href="https://example.com/game42" target="_blank">Game 42: Racing Game 2</a></li>
+                <li><a href="https://example.com/game43" target="_blank">Game 43: Snake Game 2</a></li>
+                <li><a href="https://example.com/game44" target="_blank">Game 44: Tetris 2</a></li>
+                <li><a href="https://example.com/game45" target="_blank">Game 45: Ufo Game 2</a></li>
+                <li><a href="https://example.com/game46" target="_blank">Game 46: Vex 2</a></li>
+                <li><a href="https://example.com/game47" target="_blank">Game 47: Wormax.io 2</a></li>
+                <li><a href="https://example.com/game48" target="_blank">Game 48: Xonix 2</a></li>
+                <li><a href="https://example.com/game49" target="_blank">Game 49: Yeti Sports 2</a></li>
+                <li><a href="https://example.com/game50" target="_blank">Game 50: Zombie Survival 2</a></li>
+            </ul>
+        </div>
+        <div id="proxy" class="content">
+            <h2>Search with DuckDuckGo Proxy</h2>
+            <form class="proxy-form" action="https://duckduckgo.com/" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Search DuckDuckGo..." required>
+                <button type="submit">Search</button>
+            </form>
+            <p>Use our proxy to search DuckDuckGo without any restrictions. Simply enter your query and click 'Search'.</p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 UnblockedHub Games. All rights reserved.</p>
+        <p>Contact us at <a href="mailto:contact@unblockedhubgames.com" style="color: white;">contact@unblockedhubgames.com</a></p>
+    </footer>
+    <script>
+        function showContent(id) {
+            const contents = document.querySelectorAll('.content');
+            contents.forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
+</html>
